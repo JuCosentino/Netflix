@@ -80,10 +80,12 @@ header {
     padding: 0 15px 0 15px;
     border-radius: 5px;
     font-size: 16px;
+    
 }
 
 .container .box-input input:hover {
     user-select: text;
+
 }
 
 .container .box-input .btn {
@@ -124,8 +126,9 @@ header {
     margin-left: 100px;
 }
 
-.help input:hover {
+.subli:hover {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .help a {
@@ -176,7 +179,7 @@ header {
     font-weight: 550px;
 }
 
-.container .box-input .ou {
+.container .box-input .ou{
     display: flex;
     font-size: 50px;
     align-items: center;
@@ -187,3 +190,9 @@ header {
     margin-left: 165px;
     text-decoration: none;
 }
+.description_fotter span:hover{
+ text-decoration: underline;}
+
+ .susu:hover{
+    text-decoration: underline;
+ }
